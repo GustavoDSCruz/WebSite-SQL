@@ -1,0 +1,20 @@
+titulos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.produtos titulos h2{
+    text-align: center;
+    width: 33.3%;
+    font-size: 32px;
+}
+conteudo{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.produtos conteudo campo{
+    text-align: center;
+    width: 33.3%;
+    font-size: 24px;
+}

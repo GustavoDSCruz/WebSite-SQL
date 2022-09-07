@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../font/Poppins-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-nav{
+    padding: 0 3px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: #232523;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-home{
+    position: absolute;
+    left: 0;
+    background-color: rgb(244, 183, 28);
+    opacity: 0.95;
+    color: white;
+    font-size: 20px;
+    height: 65px;
+}
+
+nav button{
+    background-color: #23252300; /* black */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    cursor: pointer;
+}
+nav button a{
+    text-decoration: none;
+    color: white;
+   
+}
+nav button:hover{
+    
+    background-color: rgb(244, 183, 28);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.icon-sql{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    height: 65px;
+}
+.img-sql{
+    padding-top: 6px;
+}
